@@ -1,0 +1,37 @@
+.main {
+  padding: 0 20px;
+}
+
+.catsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.catsList {
+  list-style-type: none;
+  height: 550px;
+  overflow-y: auto;
+  border: 1px solid grey;
+  padding: 10px;
+  width: 50%;
+}
+
+.catItem {
+  padding-bottom: 10px;
+}
+
+.catItem:hover {
+  cursor: pointer;
+}
+
+.catImage {
+  width: 100px;
+}
+
+.catImageSelected {
+  border: 4px solid red;
+}
+
+.catDetails {
+  margin-left: 20px;
+}
