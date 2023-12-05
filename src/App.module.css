@@ -7,25 +7,33 @@
   flex-direction: row;
 }
 
-.catsList {
-  list-style-type: none;
+.catsListSection {
   height: 550px;
   overflow-y: auto;
   border: 1px solid grey;
   padding: 10px;
+  margin-top: 18px;
   width: 50%;
+}
+
+.catsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 .catItem {
   padding-bottom: 10px;
 }
 
-.catItem:hover {
-  cursor: pointer;
+.catButton {
+  border: none;
+  padding: 0;
 }
 
 .catImage {
   width: 100px;
+  display: block;
 }
 
 .catImageSelected {
