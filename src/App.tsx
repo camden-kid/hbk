@@ -45,7 +45,7 @@ function App() {
   };
 
   const onCatClick = (id: string) => {
-    queryClient.refetchQueries({ queryKey: [catId] });
+    queryClient.removeQueries({ queryKey: [catId] });
     setCatId(id);
   };
 
